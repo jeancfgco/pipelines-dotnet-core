@@ -1,4 +1,5 @@
-﻿using System;
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace pipelines_dotnet_core.Controllers
     {
         public IActionResult Index()
         {
+            var bidon=1+1;
             return View();
         }
 
