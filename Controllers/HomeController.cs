@@ -13,7 +13,6 @@ namespace pipelines_dotnet_core.Controllers
     {
         public IActionResult Index()
         {
-            var bidon=1+1;
             return View();
         }
 
